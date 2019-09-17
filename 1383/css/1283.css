@@ -1,0 +1,97 @@
+@media screen and (max-width: 375px) {
+  .type-1283 h2 {
+    color: red;
+    font-weight: 100;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+    text-align: center;
+    background: url(../images/header-icon.PNG) no-repeat center bottom;
+    font-family: url(../fonts/Montserrat-Regular.otf);
+  }
+}
+.type-1283 .h2 {
+  color: #999;
+  font-size: 30px;
+  font-weight: 300;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  padding-bottom: 30px;
+  text-align: center;
+  background: url(../images/header-icon.PNG) no-repeat center bottom;
+  font-family: Montserrat;
+}
+.type-1283 .panel-group .panel {
+  border-radius: 0;
+}
+.type-1283 .panel-default {
+  border: none;
+}
+.type-1283 .panel-default > .panel-heading {
+  color: #111111;
+  font-size: 13px;
+  text-transform: uppercase;
+  border: none;
+  padding: 0;
+  background: white;
+}
+.type-1283 .panel-default > .panel-heading .panel-title {
+  display: inline-block;
+  padding: 15px;
+  color: #444;
+}
+.type-1283 .panel-default > .panel-heading .panel-title>a {
+  text-decoration: none;
+}
+.type-1283 .panel-default > .panel-heading .panel-title>a:hover {
+  color: #9CCC65;
+  transition-delay: 0.01s;
+}
+.type-1283 .panel-default > .panel-heading .panel-title>a>.active>a.active {
+  color: #9CCC65;
+  transition-delay: 0.3s;
+}
+.type-1283 .panel-default >a:active {
+  color: #9CCC65;
+}
+.type-1283 .panel-default > .panel-heading:before {
+  content: "+";
+  display: inline-block;
+  vertical-align: top;
+  width: 50px;
+  height: 50px;
+  background-color: #9CCC65;
+  color: #fff;
+  text-align: center;
+  font-size: 2em;
+  line-height: 50px;
+}
+.type-1283 * Faq styles
+.faq .faq-group {
+  display: none;
+}
+.type-1283 .faq .faq-group:first-child {
+  display: block;
+}
+.type-1283 .faq .faq-menu .faq_ul {
+  padding: 0;
+  list-style: none;
+}
+.type-1283 .faq .faq-menu .faq_ul li {
+  display: inline-block;
+  width: 100%;
+  border-bottom: 1px solid #404040;
+}
+.type-1283 .faq .faq-menu .faq_ul li a {
+  position: relative;
+  display: block;
+  padding: 22px 18px;
+  font-size: 13px;
+  color: #999;
+  background-color: #222;
+}
+.type-1283 .faq .faq-menu .faq_ul li a:hover,
+.type-1283 .faq .faq-menu .faq_ul li a:focus {
+  color: #fff;
+  background-color: #9CCC65;
+}
