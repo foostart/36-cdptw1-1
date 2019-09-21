@@ -44,7 +44,7 @@
   text-decoration: none;
 }
 .type-1383 .panel-default > .panel-heading .panel-title>a:hover {
-  color: #9CCC65;
+  color: #999999;
   transition-delay: 0.01s;
 }
 .type-1383 .panel-default > .panel-heading .panel-title>a>.active>a.active {
@@ -66,8 +66,7 @@
   font-size: 2em;
   line-height: 50px;
 }
-.type-1383 * Faq styles
-    .faq .faq-group {
+.type-1383 .faq .faq-group {
   display: none;
 }
 .type-1383 .faq .faq-group:first-child {
