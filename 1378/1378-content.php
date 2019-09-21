@@ -6,11 +6,12 @@
     preg_match_all($pattern_uri, __DIR__, $matches);
     $url_path = $url_host . $matches[1][0];
     $url_path = str_replace('\\', '/', $url_path);
-?><div class="type-1378">
+?>
+<div class="type-1378">
     <div class="container">
         <div class="row">
           
-                </div>
+               
         <!-- parallax -->
         <div class="type-1378-">
       <section class="bg-parallax parallax-window">
@@ -32,13 +33,13 @@
                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                       <div class="form-group">
                         <label>Check in</label>
-                        <input class="form-control __plannerInput" id="datetimepicker1" type="text" placeholder="10-05-2015"/>
+                        <input type="date"/>
                       </div>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                       <div class="form-group">
-                        <label>Check out</label>
-                        <input class="form-control __plannerInput" id="datetimepicker2" type="text" placeholder="17-05-2015"/>
+                        <label class="bel">Check out</label>
+                        <input class="checkout" type="date"/>
                       </div>
                     </div>
                   </div>
@@ -102,7 +103,7 @@
                   <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12">
                       <div class="planner-check-availability">
-                        <a href="wizzard-step1.html" class="btn btn-default">Check availability</a>
+                        <a href="#" class="btn btn-default">Check availability</a>
                       </div>
                     </div>
                   </div>
@@ -114,3 +115,6 @@
         </div>
     </section>   
         </div>
+         </div>
+    </div>   
+    </div> 

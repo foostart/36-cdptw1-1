@@ -3,9 +3,6 @@
 * Fonts
 **/
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
-/**
-* Plugins
-**/
 @import url('bootstrap.min.css');
 @import url('navs.css');
 @import url('font-awesome.min.css');
@@ -48,9 +45,9 @@
   height: auto;
   color: #444;
 }
-.form-control.__plannerInput {
-  background: #ffffff url(../images/icons/calendar-default.png) no-repeat 95% center;
-}
+// .form-control.__plannerInput {
+//   background: #ffffff url(../images/icons/calendar-default.png) no-repeat 95% center;
+// }
 .theme-select {
   width: 100%;
   overflow: hidden;
@@ -163,6 +160,8 @@
 
 .bg-parallax {
   background: url(../images/parallax/slide1.jpg);
+
+
 }
 
 
@@ -173,21 +172,25 @@
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
+  width: 100%;
+
 }
 .overlay {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
   background-color: rgba(0, 0, 0, 0.4);
 
 }
 
 .parallax-window .parallax-text {
   position: relative;
-  top: 75px;
+  top: 126px;
+  margin-left: 39px;
 }
 .parallax-window .parallax-text .parallax_t {
   font-size: 44px;
@@ -199,6 +202,7 @@
 .parallax-window .parallax-text .parallax_t.__green {
   color: #9CCC65;
   font-size: 20px;
+  margin-bottom: 10px;
   font-weight: 300;
   text-transform: none;
   font-family: Open Sans;
@@ -229,14 +233,14 @@
 .ui-slider-range {
   background: #9CCC65;
 }
-.ui-slider-handle {
-  border: none !important;
-  -webkit-border-radius: 50% !important;
-  -moz-border-radius: 50% !important;
-  border-radius: 50% !important;
-  background: #9CCC65 !important;
-  padding: 0 !important;
-}
+// .ui-slider-handle {
+//   border: none !important;
+//   -webkit-border-radius: 50% !important;
+//   -moz-border-radius: 50% !important;
+//   border-radius: 50% !important;
+//   background: #9CCC65 !important;
+//   padding: 0 !important;
+// }
 .ui-slider-horizontal .ui-slider-handle {
   top: -3px;
   margin-left: 0;
@@ -256,6 +260,15 @@
 #amount #amount2 {
   float: right;
 }
+.checkout
+{
+  margin-left: 63px;
+}
+.bel 
+{
+  margin-left: 63px;
+}
+
 
 
 /**
@@ -264,6 +277,7 @@
 .planner .planner-block {
   width: 100%;
   padding: 30px;
+  margin-bottom: -9px;
   background-color: rgba(0, 0, 0, 0.6);
 }
 .planner .planner-block .planner-check-availability {
@@ -271,27 +285,27 @@
   text-align: right;
 }
 section, .section {
-    position: relative;
-    z-index: 992;
-    padding-top: 75px;
-    padding-bottom: 75px;
-    background-color: #fff;
+  position: relative;
+  z-index: 992;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  background-color: #fff;
 }
 
 
 @media only screen and (max-width: 803px) and (min-width: 0px)
 {
-    .parallax-text h2:nth-child(1)
-    {
-        font-size: 15px !important;
-    }
+  .parallax-text h2:nth-child(1)
+  {
+    font-size: 15px !important;
+  }
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 769px)
 {
-    .parallax-text h2:nth-child(1)
-    {
-        font-size: 50px !important;
-    }
+  .parallax-text h2:nth-child(1)
+  {
+    font-size: 50px !important;
+  }
 }
 }

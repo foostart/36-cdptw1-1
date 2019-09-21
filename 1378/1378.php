@@ -19,7 +19,7 @@
 ?>
 <!DOCTYPE html>
 
-<html>
+<html lang = "en">
     <head>
         <title>module 1378</title>
         <meta charset="UTF-8">

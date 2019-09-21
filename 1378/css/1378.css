@@ -41,9 +41,6 @@
   height: auto;
   color: #444;
 }
-.type-1378 .form-control.__plannerInput {
-  background: #ffffff url(../images/icons/calendar-default.png) no-repeat 95% center;
-}
 .type-1378 .theme-select {
   width: 100%;
   overflow: hidden;
@@ -156,10 +153,12 @@
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
+  width: 100%;
 }
 .type-1378 .overlay {
   width: 100%;
   height: 100%;
+  overflow: auto;
   position: absolute;
   z-index: -1;
   top: 0;
@@ -168,7 +167,8 @@
 }
 .type-1378 .parallax-window .parallax-text {
   position: relative;
-  top: 75px;
+  top: 126px;
+  margin-left: 39px;
 }
 .type-1378 .parallax-window .parallax-text .parallax_t {
   font-size: 44px;
@@ -180,6 +180,7 @@
 .type-1378 .parallax-window .parallax-text .parallax_t.__green {
   color: #9CCC65;
   font-size: 20px;
+  margin-bottom: 10px;
   font-weight: 300;
   text-transform: none;
   font-family: Open Sans;
@@ -206,14 +207,6 @@
 .type-1378 .ui-slider-range {
   background: #9CCC65;
 }
-.type-1378 .ui-slider-handle {
-  border: none !important;
-  -webkit-border-radius: 50% !important;
-  -moz-border-radius: 50% !important;
-  border-radius: 50% !important;
-  background: #9CCC65 !important;
-  padding: 0 !important;
-}
 .type-1378 .ui-slider-horizontal .ui-slider-handle {
   top: -3px;
   margin-left: 0;
@@ -233,9 +226,16 @@
 .type-1378 #amount #amount2 {
   float: right;
 }
+.type-1378 .checkout {
+  margin-left: 63px;
+}
+.type-1378 .bel {
+  margin-left: 63px;
+}
 .type-1378 .planner .planner-block {
   width: 100%;
   padding: 30px;
+  margin-bottom: -9px;
   background-color: rgba(0,0,0,0.6);
 }
 .type-1378 .planner .planner-block .planner-check-availability {
