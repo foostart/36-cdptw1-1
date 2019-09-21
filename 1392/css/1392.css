@@ -579,7 +579,6 @@
   filter: alpha(opacity=20);
   width: 100%;
   height: 100%;
-  position: absolute;
   content: '';
   top: -8%;
   left: 0;
@@ -597,6 +596,7 @@
   display: inline-block;
   padding: 20px 40px;
   position: relative;
+  margin-top: -26px;
 }
 .type-1392 .noo-page-heading .noo-page-breadcrumb {
   margin-top: 6px;
@@ -688,6 +688,9 @@
 .type-1392 .noo-page-heading {
   padding-top: 85px;
   padding-bottom: 70px;
+}
+.type-1392 .noo-page-breadcrumb a:hover {
+  color: #d3ddc7;
 }
 .type-1392 header.noo-header .noo-topbar {
   height: 45px;
