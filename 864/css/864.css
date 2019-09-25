@@ -1,9 +1,6 @@
 body {
   background-color: #eeeeee;
 }
-.h7 {
-  font-size: 0.8rem;
-}
 .gedf-wrapper {
   margin-top: 0.97rem;
 }
@@ -15,6 +12,44 @@ body {
   .gedf-card {
     margin-bottom: 2.77rem;
   }
+}
+.gedf {
+  height: 207px;
+}
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,0.125);
+  border-radius: .25rem;
+}
+.card-header {
+  padding: .75rem 1.25rem;
+  margin-bottom: 0;
+  background-color: rgba(0,0,0,0.03);
+  border-bottom: 1px rgba(0,0,0,0.125);
+}
+.card-link {
+  text-decoration: none !important;
+}
+.dropdown-item {
+  text-decoration: none !important;
+}
+.card-body {
+  flex: 1 1 auto;
+  padding: 1.25rem;
+}
+.card-footer {
+  padding: .75rem 1.25rem;
+  background-color: rgba(0,0,0,0.03);
+  border-top: 1px solid rgba(0,0,0,0.125);
+}
+.rounded-circle {
+  border-radius: 50% !important;
 }
 .dropdown-toggle::after {
   content: none;
