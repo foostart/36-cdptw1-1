@@ -8,8 +8,8 @@ $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
 <div class="type-1392">
-    <div class="parallax-mirror" style="visibility: visible; z-index: -100; position: fixed; top: 130px; left: 0px; overflow: hidden; transform: translate3d(0px, 0px, 0px); height: 261px; width: 1518px;">
-        <img class="parallax-slider" alt="banner" src="./images/banner-property-1316.png" style="transform: translate3d(0px, 0px, 0px); position: absolute; top: -267.4px; left: 0px; height: 657px; width: 1518px; max-width: none;">
+    <div class="parallax-mirror" >
+        <img class="parallax-slider" alt="banner" src="./images/banner-property-1316.png">
     </div>
 
     <div class="site">
