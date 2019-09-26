@@ -1,4 +1,4 @@
-            <?php
+9            <?php
             $url_host = 'http://' . $_SERVER['HTTP_HOST'];
             $pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
             $pattern_uri = '/' . $pattern_document_root . '(.*)$/';
@@ -35,7 +35,7 @@
                       <div class="panel panel-default">
                         <div class="panel-heading" role="tab" id="headingTwo">
                           <h4 class="panel-title">
-                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion_1" href="#accordion_1_collapseTwo" aria-expanded="false" aria-controls="accordion_1_collapseTwo">
+                            <a data-toggle="collapse" data-parent="#accordion_1" href="#accordion_1_collapseTwo" aria-expanded="false" aria-controls="accordion_1_collapseTwo">
                               Non equidem invideo, miror magis posuere velit aliquet.
                             </a>
                           </h4>
@@ -53,7 +53,7 @@
                       <div class="panel panel-default">
                         <div class="panel-heading" role="tab" id="headingThree">
                           <h4 class="panel-title">
-                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion_1" href="#accordion_1_collapseThree" aria-expanded="false" aria-controls="accordion_1_collapseThree">
+                            <a data-toggle="collapse" data-parent="#accordion_1" href="#accordion_1_collapseThree" aria-expanded="false" aria-controls="accordion_1_collapseThree">
                               Subscribe to our monthly newsletter to get the latest scoop
                             </a>
                           </h4>
@@ -71,7 +71,7 @@
                       <div class="panel panel-default">
                         <div class="panel-heading" role="tab" id="headingFour">
                           <h4 class="panel-title">
-                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion_1" href="#accordion_1_collapseFour" aria-expanded="false" aria-controls="accordion_1_collapseFour">
+                            <a  data-toggle="collapse" data-parent="#accordion_1" href="#accordion_1_collapseFour" aria-expanded="false" aria-controls="accordion_1_collapseFour">
                               CSS Powered Buttons with Hover Tooltips
                             </a>
                           </h4>
@@ -89,7 +89,7 @@
                       <div class="panel panel-default">
                         <div class="panel-heading" role="tab" id="headingFive">
                           <h4 class="panel-title">
-                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion_1" href="#accordion_1_collapseFive" aria-expanded="false" aria-controls="accordion_1_collapseFive">
+                            <a data-toggle="collapse" data-parent="#accordion_1" href="#accordion_1_collapseFive" aria-expanded="false" aria-controls="accordion_1_collapseFive">
                               Smashicons: 100 Free Icons
                             </a>
                           </h4>
