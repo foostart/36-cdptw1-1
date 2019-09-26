@@ -70,7 +70,6 @@ $url_path = str_replace('\\', '/', $url_path);
                                             <label class="custom-file-label" for="customFile">Upload image</label>
                                         </div>
                                     </div>
-                                    <div class="py-4"></div>
                                 </div>
                             </div>
                             <div class="btn-toolbar justify-content-between">

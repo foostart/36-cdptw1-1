@@ -1,22 +1,22 @@
-body {
+.type-864 body {
   background-color: #eeeeee;
 }
-.gedf-wrapper {
+.type-864 .gedf-wrapper {
   margin-top: 0.97rem;
 }
 @media (min-width: 992px) {
-  .gedf-main {
+  .type-864 .gedf-main {
     padding-left: 4rem;
     padding-right: 4rem;
   }
-  .gedf-card {
+  .type-864 .gedf-card {
     margin-bottom: 2.77rem;
   }
 }
-.gedf {
+.type-864 .gedf {
   height: 207px;
 }
-.card {
+.type-864 .card {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -27,31 +27,31 @@ body {
   border: 1px solid rgba(0,0,0,0.125);
   border-radius: .25rem;
 }
-.card-header {
+.type-864 .card-header {
   padding: .75rem 1.25rem;
   margin-bottom: 0;
   background-color: rgba(0,0,0,0.03);
   border-bottom: 1px rgba(0,0,0,0.125);
 }
-.card-link {
+.type-864 .card-link {
   text-decoration: none !important;
 }
-.dropdown-item {
+.type-864 .dropdown-item {
   text-decoration: none !important;
 }
-.card-body {
+.type-864 .card-body {
   flex: 1 1 auto;
   padding: 1.25rem;
 }
-.card-footer {
+.type-864 .card-footer {
   padding: .75rem 1.25rem;
   background-color: rgba(0,0,0,0.03);
   border-top: 1px solid rgba(0,0,0,0.125);
 }
-.rounded-circle {
+.type-864 .rounded-circle {
   border-radius: 50% !important;
 }
-.dropdown-toggle::after {
+.type-864 .dropdown-toggle::after {
   content: none;
   display: none;
 }
