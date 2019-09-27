@@ -13,7 +13,7 @@
           
                
         <!-- parallax -->
-        <div class="type-1378-">
+        <div class="type-1378">
       <section class="bg-parallax parallax-window">
         <div class="overlay"></div>
         <div class="container">
