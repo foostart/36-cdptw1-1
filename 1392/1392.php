@@ -17,10 +17,10 @@ $less->compileFile('less/1392.less', 'css/1392.css');
 ?>
 <!DOCTYPE html>
 
-<html lang="en-US" class="yes-js js_active js js no-touch off-canvas-ready" style="">
+<html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet"  />
         <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet"/>
         <link href="<?php echo $url_path ?>/css/1392.css" rel="stylesheet"/>
