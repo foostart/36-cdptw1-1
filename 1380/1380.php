@@ -26,8 +26,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet"  />
         <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet"/>
+        <link rel="stylesheet" href="./css/swiper.min.css">
         <link href="<?php echo $url_path ?>/css/1380.css" rel="stylesheet" type="text/css" />
         <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js" ></script>
+        <script src="./js/swiper.min.js" ></script>
+        <script src="./js/1380.js"></script>
         <script src="<?php echo $url_path ?>/js/owl.carousel.min.js"></script>
         <script src="<?php echo $url_path ?>/js/1380.js"></script>
     </head>

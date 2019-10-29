@@ -32,6 +32,19 @@ $(document).ready(function(){
       $(stars[i]).addClass('selected');
     }
   });
-  
+  var swiper = new Swiper('.swiper-container', {
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  direction: 'horizontal',
+    loop: true,
+    slidesPerView: 1,
+    spaceBetween: 60,
+    autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+      },
+});
   
 });
