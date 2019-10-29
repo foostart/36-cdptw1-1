@@ -52,7 +52,7 @@ $url_path = str_replace('\\', '/', $url_path);
           <section class='rating-widget'>  
             <!-- Rating Stars Box -->
             <div class='rating-stars'>
-              <ul id='stars'>
+              <ul id='stars1'>
                 <li class='star' title='Poor' data-value='1'>
                   <i class='fa fa-star fa-fw'></i>
                 </li>
