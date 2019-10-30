@@ -10,6 +10,9 @@
     font-family: url(../fonts/Montserrat-Regular.otf);
   }
 }
+.type-1383 strong {
+  opacity: 0;
+}
 .type-1383 .h2 {
   color: #999;
   font-size: 30px;
@@ -41,21 +44,20 @@
   color: #444;
 }
 .type-1383 .panel-default > .panel-heading .panel-title>a {
+  margin-top: -15px;
   text-decoration: none;
 }
 .type-1383 .panel-default > .panel-heading .panel-title>a:hover {
   color: #999999;
   transition-delay: 0.01s;
 }
-.type-1383 .panel-default > .panel-heading .panel-title>a>.active>a.active {
-  color: #9CCC65;
+.type-1383 .panel-default > .panel-heading .panel-title>a>.click>a.click {
   transition-delay: 0.3s;
 }
 .type-1383 .panel-default >a:active {
   color: #9CCC65;
 }
-.type-1383 .panel-default > .panel-heading:before {
-  content: "+";
+.type-1383 .panel-default > .panel-heading a.click {
   display: inline-block;
   vertical-align: top;
   width: 50px;
