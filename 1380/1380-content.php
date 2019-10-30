@@ -42,10 +42,9 @@ $url_path = str_replace('\\', '/', $url_path);
             <a href="#" class="btn btn-default">Book this room</a>
           </section>
         </div>
-         <div class="swiper-pagination"></div>
-        <!-- Add Arrows -->
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
+          <!-- Add Arrows -->
+        <div class="swiper-button-next swiper-button-white next"></div>
+        <div class="swiper-button-prev swiper-button-white prev"></div>
       </div>
       <div class="swiper-slide"> 
         <div class="text-center">
@@ -75,10 +74,9 @@ $url_path = str_replace('\\', '/', $url_path);
             <a href="#" class="btn btn-default">Book this room</a>
           </section>
         </div>
-         <div class="swiper-pagination"></div>
-        <!-- Add Arrows -->
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
+          <!-- Add Arrows -->
+        <div class="swiper-button-next swiper-button-white next"></div>
+        <div class="swiper-button-prev swiper-button-white prev"></div>
       </div>
 
     </div>

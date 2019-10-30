@@ -36,7 +36,7 @@
   .swiper-slide {
     text-align: center;
     font-size: 18px;
-        background-color: rgba(0, 0, 0, 0.01);
+    background-color: rgba(0, 0, 0, 0.01);
     /* Center slide text vertically */
     display: -webkit-box;
     display: -ms-flexbox;
@@ -50,61 +50,77 @@
     -ms-flex-align: center;
     -webkit-align-items: center;
     align-items: center;
-  }
-  .btn-default{
-    display: inline-block;
-    padding: 10px 15px;
-    font-size: 13px;
-    text-align: center;
-    text-transform: uppercase;
-    color:  @color-fff;
-    border: 1px solid  @color-green;
-    -moz-border-radius: 0;
-    border-radius: 0;
-    background-color:  @color-green;
-    line-height: 1.75;
-    &:hover{
-      background-color: #649918;
-      transition: all 0.5s ease;
-    }
-  }
-  /* Rating Star Widgets Style */
-  ul {
-    list-style-type:none;
-    padding:0;
-    margin-top: 0px;
-    -moz-user-select:none;
-    -webkit-user-select:none;
-    li.star {
-      display:inline-block;
-      i.fa {
-        font-size:1.6em; /* Change the size of the stars */
-        color:  @color-fff; /* Color on idle state */
-        padding-top: 70px;
-        margin: 3px;
-        padding-bottom: 30px;
+    .swiper-button-next.swiper-button-white, .swiper-button-prev.swiper-button-white
+    {
+      &:hover{
+        transition: all .45s cubic-bezier(0,.95,.77,1);
+        transform: translate3d(-6px,0,0);
+
       }
     }
+    .swiper-button-next.swiper-button-white.next{
+     &:hover{
+      transition: all .45s cubic-bezier(0,.95,.77,1);
+      transform: translate3d(6px,0,0);
+
+    }
+
   }
-  /* Hover state of the stars */
-  li.star.hover > i.fa {
-    color: @color-green;
+}
+.btn-default{
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 13px;
+  text-align: center;
+  text-transform: uppercase;
+  color:  @color-fff;
+  border: 1px solid  @color-green;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  background-color:  @color-green;
+  line-height: 1.75;
+  &:hover{
+    background-color: #649918;
+    transition: all 0.5s ease;
   }
-  /* Selected state of the stars */
-  li.star.selected > i.fa {
-    color: @color-green;
+}
+/* Rating Star Widgets Style */
+ul {
+  list-style-type:none;
+  padding:0;
+  margin-top: 0px;
+  -moz-user-select:none;
+  -webkit-user-select:none;
+  li.star {
+    display:inline-block;
+    i.fa {
+      font-size:1.6em; /* Change the size of the stars */
+      color:  @color-fff; /* Color on idle state */
+      padding-top: 70px;
+      margin: 3px;
+      padding-bottom: 30px;
+    }
   }
-  @media only screen and (max-width: 750px) {
-    .banner-parallax {
-     font-size: 46px;
-     color: @color-fff;
-     margin-top: 0;
-     margin-bottom: 20px;
-     font-family: Montserrat;
-     padding-bottom: 20px;
-   }
+}
+/* Hover state of the stars */
+li.star.hover > i.fa {
+  color: @color-green;
+}
+/* Selected state of the stars */
+li.star.selected > i.fa {
+  color: @color-green;
+}
+@media only screen and (max-width: 750px) {
+  .banner-parallax {
+   font-size: 46px;
+   color: @color-fff;
+   margin-top: 0;
+   margin-bottom: 20px;
+   font-family: Montserrat;
+   padding-bottom: 20px;
  }
- @media only screen and (max-width: 600px) {
+}
+@media only screen and (max-width: 600px) {
   .banner-parallax {
    font-size: 43px;
    color: @color-fff;
