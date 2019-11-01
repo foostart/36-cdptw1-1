@@ -16,7 +16,9 @@
             <div class="panel panel-default">
               <div class="panel-heading" role="tab" id="headingOne">
                 <h4 class="panel-title">
-                  <a class="click" data-toggle="collapse" data-parent="#accordion_1" href="#accordion_1_collapseOne" aria-expanded="true" aria-controls="accordion_1_collapseOne">+</a>
+                  <a class="click" data-toggle="collapse" data-parent="#accordion_1" href="#accordion_1_collapseOne" aria-expanded="true" aria-controls="accordion_1_collapseOne">
+                    <span class="plus">+</span> <span class="min">-</span>
+                  </a>
                   <a class="active" href="#accordion_1_collapseOne" >
                     Food Delivery. Order online food delivery at RoomService
                   </a>
@@ -35,7 +37,9 @@
             <div class="panel panel-default">
               <div class="panel-heading" role="tab" id="headingTwo">
                 <h4 class="panel-title">
-                  <a class="click" data-toggle="collapse" data-parent="#accordion_1" href="#accordion_1_collapseTwo" aria-expanded="false" aria-controls="accordion_1_collapseTwo">+</a>
+                  <a class="click" data-toggle="collapse" data-parent="#accordion_1" href="#accordion_1_collapseTwo" aria-expanded="false" aria-controls="accordion_1_collapseTwo">
+                     <span class="plus-1">+</span> <span class="min-1">-</span>
+                  </a>
                   <a class="active" href="#accordion_1_collapseTwo">
                     Non equidem invideo, miror magis posuere velit aliquet.
                   </a>
@@ -54,7 +58,9 @@
             <div class="panel panel-default">
               <div class="panel-heading" role="tab" id="headingThree">
                 <h4 class="panel-title">
-                  <a class="click" data-toggle="collapse" data-parent="#accordion_1" href="#accordion_1_collapseThree" aria-expanded="false" aria-controls="accordion_1_collapseThree">+</a>
+                  <a class="click" data-toggle="collapse" data-parent="#accordion_1" href="#accordion_1_collapseThree" aria-expanded="false" aria-controls="accordion_1_collapseThree">
+                    <span class="plus-2">+</span> <span class="min-2">-</span>
+                  </a>
                   <a class="active" href="#accordion_1_collapseThree">
                     Subscribe to our monthly newsletter to get the latest scoop
                   </a>
@@ -73,7 +79,9 @@
             <div class="panel panel-default">
               <div class="panel-heading" role="tab" id="headingFour">
                 <h4 class="panel-title">
-                  <a class="click" data-toggle="collapse" data-parent="#accordion_1" href="#accordion_1_collapseFour" aria-expanded="false" aria-controls="accordion_1_collapseFour">+</a>
+                  <a class="click" data-toggle="collapse" data-parent="#accordion_1" href="#accordion_1_collapseFour" aria-expanded="false" aria-controls="accordion_1_collapseFour">
+                    <span class="plus-3">+</span> <span class="min-3">-</span>
+                  </a>
                   <a class="active" href="#accordion_1_collapseFour">
                     CSS Powered Buttons with Hover Tooltips
                   </a>
@@ -92,7 +100,9 @@
             <div class="panel panel-default">
               <div class="panel-heading" role="tab" id="headingFive">
                 <h4 class="panel-title">
-                  <a class="click" data-toggle="collapse" data-parent="#accordion_1" href="#accordion_1_collapseFive" aria-expanded="false" aria-controls="accordion_1_collapseFive">+</a>
+                  <a class="click" data-toggle="collapse" data-parent="#accordion_1" href="#accordion_1_collapseFive" aria-expanded="false" aria-controls="accordion_1_collapseFive">
+                    <span class="plus-4">+</span> <span class="min-4">-</span>
+                  </a>
                   <a class="active" href="#accordion_1_collapseFive">
                     Smashicons: 100 Free Icons
                   </a>
@@ -111,7 +121,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div><!--end container -->
   </div>
   
 
